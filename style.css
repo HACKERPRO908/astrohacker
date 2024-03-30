@@ -1,0 +1,31 @@
+body {
+    background-color:black  
+}
+
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('fonts/PressStart2P-Regular.ttf');
+    font-display: swap;
+}
+
+.green-blue1 {
+    background-image: linear-gradient(to right bottom, rgb(161, 252, 3), rgb(119, 187, 255), rgb(91, 184, 26));
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    transition: background-image 0.3s ease;
+}
+
+.press-start {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .red-yellow1 {
+    background-image: linear-gradient(to right bottom, rgb(252, 3, 19), rgb(250, 146, 0), rgb(242, 250, 0));
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    transition: background-image 0.3s ease;
+}
